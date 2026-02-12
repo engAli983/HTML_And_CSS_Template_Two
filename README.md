@@ -67,7 +67,7 @@ I am constantly working to improve this template. Here is the progress:
 - [x] **Phase 2: UI Overhaul** (CSS Variables, Responsive Grid).
 - [x] **Phase 3: JS Core** (Menu Toggle, Portfolio Filter, Stats Counter).
 - [x] **Phase 4: Dark Mode** (Theme implementation with LocalStorage).
-- [ ] **Phase 5: Performance** (Lazy loading for images).
+- [x] **Phase 5: Performance** (Lazy loading for images).
 - [ ] **Phase 6: Contact Form** (Backend integration).
 
 ---
