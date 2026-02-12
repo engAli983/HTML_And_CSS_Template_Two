@@ -1,78 +1,86 @@
-# 🎨 Kasper | Creative Portfolio (Enhanced Edition)
+# Kasper | Creative Portfolio Template (Modernized)
 
-> **From Static to Dynamic:** A complete modernization of the classic "Kasper" template.
+![Kasper Banner](https://placehold.co/1000x300/19c8fa/ffffff?text=Kasper+Creative+Portfolio+2026)
 
-This project represents a milestone in my Front-End development journey. It started 10 months ago as a static HTML/CSS practice based on [Elzero Web School](https://elzero.org/) design. Today, I have completely re-engineered it to demonstrate modern web standards, **JavaScript interactivity**, **Dark Mode**, and **Semantic HTML**.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=github)](https://engali983.github.io/HTML_And_CSS_Template_Two/)
+[![Tech Stack](https://img.shields.io/badge/HTML5-CSS3-blue?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## 🚀 Live Demo
-[Click here to view the live project](#) ---
+## 🚀 Overview
 
-## 📸 Transformation Showcase (Before vs. After)
+**Kasper** is a responsive, single-page creative portfolio template.
+Originally started as a classic HTML/CSS structure (based on Elzero Web School's Template Two), this project has been **completely re-engineered** to meet modern web standards.
 
-### 1. The Legacy Version (10 Months Ago)
-*Static layout, basic CSS, no interactivity.*
-![Old Design](images/old-design.png)
-
-### 2. The Enhanced Version (Current)
-*Modernized with Dark Mode, Scroll Animations, Interactive Filtering, and Clean UI.*
-![New Design](images/new-design.png)
+The goal was to transform a static layout into a dynamic, interactive user experience using Vanilla JavaScript, introducing **Dark Mode**, **Portfolio Filtering**, and **Scroll Animations** without relying on external libraries.
 
 ---
 
-## 🔄 The Technical Evolution
+## 🔄 The Evolution (Before vs. After)
 
-| Feature | 🕸️ Legacy Version (Old) | 🚀 Enhanced Version (New) |
+This project represents my journey from static design to dynamic interactivity.
+
+| Feature | Original Version (The Start) | Modernized Version (Current) |
 | :--- | :--- | :--- |
-| **Tech Stack** | HTML & CSS Only | HTML5, CSS3, **JavaScript (ES6+)** |
 | **Theme** | Fixed Light Mode | **Dark / Light Mode Toggle** (Saved in LocalStorage) |
-| **Structure** | `<div>` based (Non-Semantic) | **Semantic HTML5** (SEO & A11y Friendly) |
-| **Portfolio** | Static Images | **Dynamic Filter** (Sort by Category) |
-| **Animations** | None | **Scroll Reveal** (Intersection Observer) & Counters |
-| **Navigation** | Basic Links | **Sticky Header** & **Mobile Burger Menu** |
+| **Interactivity** | Static Images | **Dynamic Filtering**, Sliders, & Counters |
+| **User Experience** | Basic Links | **Sticky Header**, Smooth Scroll, Scroll-to-Top |
+| **Code Structure** | `<div>` based Layout | **Semantic HTML5** & Modular CSS Variables |
+
+### Visual Comparison
+
+| Before (Classic) | After (Modern Redesign) |
+| :---: | :---: |
+| <img src="./images/old-design.png" width="400" alt="Old Design"> | <img src="./images/new-design.png" width="400" alt="New Design"> |
 
 ---
 
-## ✨ Key Features (New Implementation)
+## ✨ Key Features
 
-### 🌗 Dark/Light Mode
-- Users can toggle between themes.
-- Preference is **saved automatically** in `LocalStorage`, so it remembers the choice on reload.
+### 🛠 UI/UX Enhancements
+* **Dark Mode Support:** A fully functional theme switcher that respects user preference and saves it for future visits.
+* **Modern Typography:** Clean usage of **Jost** and **Open Sans** fonts for a professional look.
+* **Responsive Design:** A custom **Burger Menu** for mobile devices and a grid system that adapts seamlessly to all screen sizes.
 
-### 🖼️ Interactive Portfolio
-- Filter projects by category (App, Web, Photo, Print) instantly without page reload using vanilla JavaScript.
-
-### 🔢 Animated Statistics
-- Numbers in the "Stats" section count up automatically when the user scrolls to them.
-
-### 📱 Fully Responsive
-- A custom **Burger Menu** for mobile devices with smooth toggle animations.
-- Grid and Flexbox layouts adapt seamlessly to all screen sizes.
-
-### 🎬 Scroll Animations
-- Elements fade in and slide up as you scroll down using the modern `IntersectionObserver` API for better performance.
+### ⚡ JavaScript Implementations
+* **Portfolio Filter:** Filter project images dynamically by category (App, Web, Photo, Print) instantly.
+* **Scroll Animations:** Used **Intersection Observer API** to trigger fade-up and slide-in animations as the user scrolls.
+* **Animated Statistics:** Numbers in the "Stats" section count up automatically when viewed.
+* **Testimonials Slider:** Interactive slider logic for client reviews.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5:** Semantic tags (`<header>`, `<section>`, `<footer>`, `<nav>`).
-- **CSS3:** Custom Properties (Variables), Flexbox, CSS Grid, Media Queries.
-- **JavaScript (ES6+):** DOM Manipulation, Event Handling, LocalStorage, Clean Code architecture.
-- **Font Awesome:** For icons.
-- **Google Fonts:** (Jost & Open Sans).
+* **HTML5:** Semantic Structure (`header`, `section`, `nav`).
+* **CSS3:** CSS Variables (`:root`), Flexbox, CSS Grid, Media Queries.
+* **JavaScript (ES6+):** DOM Manipulation, LocalStorage, Event Delegation, Intersection Observer.
+* **Font Awesome:** For scalable vector icons.
+* **Google Fonts:** Jost & Open Sans.
+
+---
+
+## 🗺️ Roadmap & Future Improvements
+
+I am constantly working to improve this template. Here is the progress:
+
+- [x] **Phase 1: Structure** (Semantic HTML conversion).
+- [x] **Phase 2: UI Overhaul** (CSS Variables, Responsive Grid).
+- [x] **Phase 3: JS Core** (Menu Toggle, Portfolio Filter, Stats Counter).
+- [x] **Phase 4: Dark Mode** (Theme implementation with LocalStorage).
+- [ ] **Phase 5: Performance** (Lazy loading for images).
+- [ ] **Phase 6: Contact Form** (Backend integration).
 
 ---
 
 ## 📂 Project Structure
 
-```text
-/
-├── index.html          # Main Semantic HTML structure
-├── css/
-│   ├── kasper.css      # Main styling & Dark Mode variables
-│   ├── normalize.css   # Browser consistency
-│   └── all.min.css     # Icon library
-├── js/
-│   └── main.js         # Logic: Filter, Toggle, Animations, LocalStorage
-├── images/             # Assets & Screenshots (old/new design)
+```bash
+├── css
+│   ├── kasper.css      # Main Stylesheet (Variables & Components)
+│   ├── normalize.css   # CSS Reset
+│   └── all.min.css     # Font Awesome
+├── js
+│   └── main.js         # Logic (Filter, Dark Mode, Observer)
+├── images              # Project Assets & Screenshots
+├── index.html          # Main Structure
 └── README.md           # Documentation
