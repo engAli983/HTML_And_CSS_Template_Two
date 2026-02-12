@@ -1,359 +1,430 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<html lang="en" data-theme="light">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kasper | Template Two</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasper | Premium Portfolio</title>
     <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href=
-      "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..
-      800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Main Css -->
-    <link rel="stylesheet" href="css/kasper.css">
+    <link rel="stylesheet" href="css/kasper.css" />
   </head>
   <body>
     <!-- Start Header -->
-    <header>
+    <header id="header">
       <div class="container">
         <a href="#" class="logo">
-          <img src="images/logo.png" alt="logo">
+          <img src="images/logo.png" alt="Kasper Logo" />
         </a>
         <nav>
-          <i class="fa-solid fa-bars toggle-menu"></i>
-          <ul>
-            <li><a class="active" href="">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contant</a></li>
+          <button class="toggle-menu" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li><a class="active" href="#home" data-section="home">Home</a></li>
+            <li><a href="#services" data-section="services">Services</a></li>
+            <li><a href="#portfolio" data-section="portfolio">Portfolio</a></li>
+            <li><a href="#about" data-section="about">About</a></li>
+            <li><a href="#pricing" data-section="pricing">Pricing</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
           </ul>
-          <div class="search">
-            <i class="fas fa-search"></i>
+          <div class="header-actions">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="search-box">
+              <i class="fas fa-search search-icon"></i>
+            </div>
           </div>
         </nav>
       </div>
     </header>
     <!-- End Header -->
-    <!-- Start Laanding -->
-    <div class="landing">
+
+    <!-- Start Landing -->
+    <section class="landing" id="home">
       <div class="overlay"></div>
-      <div class="text">
+      <div class="text fade-up">
         <div class="content">
           <h2>
-          Hello World! <br>
-          We Are Kasper We Make Art.</h2>
+            Hello World! <br />
+            We Are Kasper We Make Art.
+          </h2>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet 
-            elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, 
-            porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Curabitur aliquet quam.
           </p>
+          <a href="#about" class="btn btn-primary">Discover More</a>
         </div>
       </div>
-      <i class="fa-solid fa-angle-left chang-background left fa-2x"></i>
-      <i class="fa-solid fa-angle-right chang-background right fa-2x"></i>
+      <button class="arrow-btn left" aria-label="Previous Slide">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button class="arrow-btn right" aria-label="Next Slide">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
       <ul class="bullets">
         <li></li>
         <li class="active"></li>
         <li></li>
       </ul>
-    </div>
-    <!-- End Laanding -->
+    </section>
+    <!-- End Landing -->
+
     <!-- Start Services -->
-    <div class="services" id="services">
+    <section class="services section-padding" id="services">
       <div class="container">
-        <div class="main-heading">
+        <div class="main-heading fade-up">
           <h2>Services</h2>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit 
-            aliquet elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
         <div class="services-container">
-          <div class="srv-box">
-            <i class="fa-solid fa-desktop fa-3x"></i>
+          <div class="srv-box fade-up delay-100">
+            <div class="icon-holder">
+              <i class="fa-solid fa-desktop fa-3x"></i>
+            </div>
             <div class="text">
               <h3>Vorem amet intuitive</h3>
               <p>
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               </p>
             </div>
           </div>
-          <div class="srv-box">
-            <i class="fa-solid fa-gear fa-3x"></i>
+          <div class="srv-box fade-up delay-200">
+            <div class="icon-holder">
+              <i class="fa-solid fa-gear fa-3x"></i>
+            </div>
             <div class="text">
               <h3>Vorem amet intuitive</h3>
               <p>
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               </p>
             </div>
           </div>
-          <div class="srv-box">
-            <i class="fa-solid fa-pen-ruler fa-3x"></i>
+          <div class="srv-box fade-up delay-300">
+            <div class="icon-holder">
+              <i class="fa-solid fa-pen-ruler fa-3x"></i>
+            </div>
             <div class="text">
               <h3>Vorem amet intuitive</h3>
               <p>
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               </p>
             </div>
           </div>
-          <div class="srv-box">
-            <i class="fa-solid fa-camera fa-3x"></i>
+          <div class="srv-box fade-up delay-400">
+            <div class="icon-holder">
+              <i class="fa-solid fa-camera fa-3x"></i>
+            </div>
             <div class="text">
               <h3>Vorem amet intuitive</h3>
               <p>
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Services -->
 
-    <!-- Start Desing -->
-    <div class="desing">
-      <div class="image">
-        <img src="images/mobile.jpg" alt="Mobile">
+    <!-- Start Design -->
+    <section class="design section-padding">
+      <div class="image fade-right">
+        <img src="images/mobile.jpg" alt="Mobile Design" />
       </div>
-      <div class="text">
-        <h2>Our Desing Comes With...</h2>
+      <div class="text fade-left">
+        <h2>Our Design Comes With...</h2>
         <ul>
-          <li>Responsive Desing</li>
-          <li>Modern And Clean Desing</li>
-          <li>Clean Code</li>
-          <li>Browser Friendly</li>
+          <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+          <li><i class="fa-solid fa-check"></i> Modern And Clean Design</li>
+          <li><i class="fa-solid fa-check"></i> Clean Code</li>
+          <li><i class="fa-solid fa-check"></i> Browser Friendly</li>
         </ul>
       </div>
-    </div>
-    <!-- End Desing -->
-    <!-- Start Protfolio -->
-    <div class="portfolio" id="portfolio">
+    </section>
+    <!-- End Design -->
+
+    <!-- Start Portfolio -->
+    <section class="portfolio section-padding" id="portfolio">
       <div class="container">
-        <div class="main-heading">
+        <div class="main-heading fade-up">
           <h2>Portfolio</h2>
-          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet 
-            elit, eget tincidunt.
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
-        <ul class="shuffile">
-          <li class="active">All</li>
-          <li>App</li>
-          <li>Photo</li>
-          <li>Web</li>
-          <li>Print</li>
+        <ul class="shuffle fade-up">
+          <li class="active" data-filter="all">All</li>
+          <li data-filter="app">App</li>
+          <li data-filter="photo">Photo</li>
+          <li data-filter="web">Web</li>
+          <li data-filter="print">Print</li>
         </ul>
       </div>
       <div class="imgs-container">
-        <div class="box">
-          <img src="images/shuffle-01.jpg" alt="">
+        <div class="box" data-category="photo">
+          <img
+            src="images/shuffle-01.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
-        <div class="box">
-          <img src="images/shuffle-02.jpg" alt="">
+        <div class="box" data-category="app">
+          <img
+            src="images/shuffle-02.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>App Development</p>
+          </div>
+        </div>
+        <div class="box" data-category="web">
+          <img
+            src="images/shuffle-03.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>Web Design</p>
+          </div>
+        </div>
+        <div class="box" data-category="web">
+          <img
+            src="images/shuffle-04.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>Web Design</p>
+          </div>
+        </div>
+        <div class="box" data-category="app">
+          <img
+            src="images/shuffle-05.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>App Design</p>
+          </div>
+        </div>
+        <div class="box" data-category="photo">
+          <img
+            src="images/shuffle-06.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
           <div class="caption">
             <h4>Awesome Image</h4>
             <p>Photography</p>
           </div>
         </div>
-        <div class="box">
-          <img src="images/shuffle-03.jpg" alt="">
+        <div class="box" data-category="print">
+          <img
+            src="images/shuffle-07.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
           <div class="caption">
             <h4>Awesome Image</h4>
-            <p>Photography</p>
+            <p>Print Media</p>
           </div>
         </div>
-        <div class="box">
-          <img src="images/shuffle-04.jpg" alt="">
+        <div class="box" data-category="print">
+          <img
+            src="images/shuffle-08.jpg"
+            alt="Portfolio Item"
+            loading="lazy"
+          />
           <div class="caption">
             <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/shuffle-05.jpg" alt="">
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/shuffle-06.jpg" alt="">
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/shuffle-07.jpg" alt="">
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
-          </div>
-        </div>
-        <div class="box">
-          <img src="images/shuffle-08.jpg" alt="">
-          <div class="caption">
-            <h4>Awesome Image</h4>
-            <p>Photography</p>
+            <p>Print Media</p>
           </div>
         </div>
       </div>
-      <a href="#" class="more">More</a>
-    </div>
-    <!-- End Protfolio -->
+      <a href="#" class="more-btn">More Works</a>
+    </section>
+    <!-- End Portfolio -->
 
-    <!-- Start Video  -->
-    <div class="video">
-      <video autoplay muted loop>
-        <source src="images/awesome-video.mp4" type="video/mp4">
+    <!-- Start Video -->
+    <section class="video">
+      <video autoplay muted loop playsinline>
+        <source src="images/awesome-video.mp4" type="video/mp4" />
       </video>
-      <div class="text">
+      <div class="overlay"></div>
+      <div class="text fade-up">
         <h2>Super Awesome Video Here</h2>
-        <p>Its All You Need</p>
-        <button>see More</button>
+        <p>It's All You Need</p>
+        <button class="btn btn-secondary">See More</button>
       </div>
-    </div>
-    <!-- End Video  -->
+    </section>
+    <!-- End Video -->
 
     <!-- Start About -->
-    <div class="about" id="about">
+    <section class="about section-padding" id="about">
       <div class="container">
-        <div class="main-heading">
+        <div class="main-heading fade-up">
           <h2>About Us</h2>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
-        <img src="images/about(1).png" alt="About">
+        <img
+          src="images/about(1).png"
+          alt="About Illustration"
+          class="fade-up delay-200"
+        />
       </div>
-    </div>
+    </section>
     <!-- End About -->
+
     <!-- Start Stats -->
-    <div class="stats">
+    <section class="stats section-padding">
       <div class="container">
-        <div class="box">
+        <div class="box fade-up">
           <i class="fa-solid fa-mug-hot"></i>
-          <div class="number">1.236</div>
-          <p>Coffee Drink</p>
+          <div class="number" data-target="1236">0</div>
+          <p>Coffee Drinks</p>
         </div>
-        <div class="box">
+        <div class="box fade-up delay-100">
           <i class="fa-regular fa-folder"></i>
-          <div class="number">256</div>
+          <div class="number" data-target="256">0</div>
           <p>Completed Projects</p>
         </div>
-        <div class="box">
+        <div class="box fade-up delay-200">
           <i class="fa-regular fa-envelope"></i>
-          <div class="number">1.743</div>
+          <div class="number" data-target="1743">0</div>
           <p>Mail Sent</p>
         </div>
-        <div class="box">
+        <div class="box fade-up delay-300">
           <i class="fa-solid fa-trophy"></i>
-          <div class="number">17</div>
+          <div class="number" data-target="17">0</div>
           <p>Awards Received</p>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Stats -->
+
     <!-- Start Skills -->
-    <div class="our-skills">
+    <section class="our-skills section-padding">
       <div class="container">
-        <div class="testimonials">
-          <h3>testimonials</h3>
+        <div class="testimonials fade-right">
+          <h3>Testimonials</h3>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
-          <div class="content">
-            <img src="images/skills-1.png" alt="">
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-              elit, eget tincidunt.
-              <p>John Doe, CEO</p>
+          <div class="content-box">
+            <div class="content active">
+              <img src="images/skills-1.png" alt="User 1" />
+              <div class="text">
+                "Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                sem. Mauris blandit aliquet elit, eget tincidunt."
+                <p>John Doe, CEO</p>
+              </div>
             </div>
-          </div>
-          <div class="content">
-            <img src="images/skills-2.jpg" alt="">
-            <div class="text">
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-              elit, eget tincidunt.
-              <p>John Doe, CEO</p>
+            <div class="content hidden">
+              <img src="images/skills-2.jpg" alt="User 2" />
+              <div class="text">
+                "Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui."
+                <p>Jane Smith, CTO</p>
+              </div>
             </div>
           </div>
           <ul class="bullets">
-            <li></li>
-            <li class="active"></li>
+            <li class="active" data-slide="0"></li>
+            <li data-slide="1"></li>
             <li></li>
           </ul>
         </div>
-        <div class="skills">
+        <div class="skills fade-left">
           <h3>Skills</h3>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
           <div class="prog-holder">
             <h4>Adobe</h4>
             <div class="prog">
-              <span style="width: 90%;" data-progress="90%"></span>
+              <span style="width: 0%" data-progress="90%"></span>
             </div>
           </div>
           <div class="prog-holder">
             <h4>Html &amp; Css</h4>
             <div class="prog">
-              <span style="width: 85%;" data-progress="85%"></span>
+              <span style="width: 0%" data-progress="85%"></span>
             </div>
           </div>
           <div class="prog-holder">
             <h4>JavaScript</h4>
             <div class="prog">
-              <span style="width: 80%;" data-progress="80%"></span>
+              <span style="width: 0%" data-progress="80%"></span>
             </div>
           </div>
           <div class="prog-holder">
             <h4>Php</h4>
             <div class="prog">
-              <span style="width: 90%;" data-progress="90%"></span>
+              <span style="width: 0%" data-progress="90%"></span>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Skills -->
+
     <!-- Start Quote -->
     <div class="quote">
       <div class="container">
-        <q>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet</q>
+        <q
+          >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet</q
+        >
         <span>John Doe</span>
       </div>
     </div>
     <!-- End Quote -->
+
     <!-- Start Pricing -->
-    <div class="pricing" id="pricing">
+    <section class="pricing section-padding" id="pricing">
       <div class="container">
-        <div class="main-heading">
+        <div class="main-heading fade-up">
           <h2>Pricing</h2>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
         <div class="plans">
-          <div class="plan">
+          <div class="plan fade-up">
             <div class="head">
               <h3>Basic</h3>
               <span>19</span>
@@ -368,7 +439,7 @@
               <a href="#">Buy Now</a>
             </div>
           </div>
-          <div class="plan">
+          <div class="plan fade-up delay-100">
             <div class="head">
               <h3>Premium</h3>
               <span>29</span>
@@ -383,7 +454,7 @@
               <a href="#">Buy Now</a>
             </div>
           </div>
-          <div class="plan">
+          <div class="plan fade-up delay-200">
             <div class="head">
               <h3>Pro</h3>
               <span>39</span>
@@ -398,7 +469,7 @@
               <a href="#">Buy Now</a>
             </div>
           </div>
-          <div class="plan">
+          <div class="plan fade-up delay-300">
             <div class="head">
               <h3>Platinum</h3>
               <span>49</span>
@@ -415,79 +486,112 @@
           </div>
         </div>
         <p class="contact-text">Contact us if you have special request</p>
-        <a href="#" class="contact-link">Contact Us</a>
+        <a href="#contact" class="btn btn-primary">Contact Us</a>
       </div>
-    </div>
+    </section>
     <!-- End Pricing -->
+
     <!-- Start Subscribe -->
-    <div class="subscribe">
+    <section class="subscribe">
       <div class="container">
-        <form>
+        <form action="">
           <i class="fa-regular fa-envelope"></i>
-          <input type="email" placeholder="Your Email">
-          <input type="submit" value="Subscribe">
+          <input
+            type="email"
+            placeholder="Your Email"
+            aria-label="Subscribe Email"
+            required
+          />
+          <input type="submit" value="Subscribe" />
         </form>
         <p>
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-          elit, eget tincidunt.
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
         </p>
       </div>
-    </div>
+    </section>
     <!-- End Subscribe -->
-    <!-- Start Contact   -->
-    <div class="contact" id="contact">
+
+    <!-- Start Contact -->
+    <section class="contact section-padding" id="contact">
       <div class="container">
-        <div class="main-heading">
+        <div class="main-heading fade-up">
           <h2>Contact Us</h2>
           <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
         <div class="content">
-          <form>
-            <input type="text" class="main-input" name="name" placeholder="Your Name">
-            <input type="email" class="main-input" name="mail" placeholder="Your Email">
-            <textarea class="main-input" name="messsage" placeholder="Your Messsage"></textarea>
-            <input type="submit" value="Send Messsage">
+          <form class="contact-form fade-right">
+            <input
+              type="text"
+              class="main-input"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              class="main-input"
+              name="mail"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              class="main-input"
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" class="btn-submit" />
           </form>
-          <div class="info">
+          <div class="info fade-left">
             <h4>Get In Touch</h4>
             <span class="phone">+00 123.456.789</span>
             <span class="phone">+00 123.456.789</span>
             <h4>Where We Are</h4>
             <address>
-              Awesome Address 17
-              <br>
-              New York, NYC
-              <br>
-              123-4567-890
-              <br>
+              Awesome Address 17<br />
+              New York, NYC<br />
+              123-4567-890<br />
               USA
             </address>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Contact   -->
+    </section>
+    <!-- End Contact -->
+
     <!-- Start Footer -->
-    <div class="footer">
+    <footer class="footer">
       <div class="container">
-        <img src="images/logo.png" alt="logo" class="logo">
+        <img src="images/logo.png" alt="logo" class="logo" />
         <p>We Are Social</p>
         <div class="social-icon">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fa-solid fa-house-chimney"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <a href="#" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Home"
+            ><i class="fa-solid fa-house-chimney"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </div>
-        <p class="copyright">
-            © 2021
-            <span>Kasper</span>
-            All Right Reserved
-        </p>
+        <p class="copyright">© 2026 <span>Kasper</span> All Right Reserved</p>
       </div>
-    </div>
+    </footer>
     <!-- End Footer -->
+
+    <!-- Scroll To Top -->
+    <button id="scrollToTop" aria-label="Scroll to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JS Scripts -->
+    <script src="js/main.js"></script>
   </body>
-  </html>
+</html>
