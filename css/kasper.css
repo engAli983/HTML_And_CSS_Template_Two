@@ -927,7 +927,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .quote {
   padding: var(--section-padding) 0;
-  background-image: url("../images/quote.jpg");
+  background-image: url("../images/quote.png");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
