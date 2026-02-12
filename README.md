@@ -1,8 +1,6 @@
 # Kasper | Creative Portfolio Template (Modernized)
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:19c8fa&height=300&section=header&text=Kasper%20Portfolio&fontSize=80&fontColor=ffffff&animation=fadeIn&desc=Creative%20HTML5%20%26%20CSS3%20Template&descSize=25&descAlign=50" alt="Kasper Animated Banner" width="100%" />
-</div>
+![Kasper Typing SVG](https://readme-typing-svg.herokuapp.com?font=Jost&weight=600&size=50&duration=3000&pause=1000&color=19C8FA&background=1A1A1A00&center=true&vCenter=true&width=1000&height=300&lines=Kasper+Creative+Portfolio;Modern+HTML5+%26+CSS3+Template;Interactive+Dark+Mode+%26+Animations;Fully+Responsive+Design)  
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=github)](https://engali983.github.io/HTML_And_CSS_Template_Two/)
 [![Tech Stack](https://img.shields.io/badge/HTML5-CSS3-blue?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
