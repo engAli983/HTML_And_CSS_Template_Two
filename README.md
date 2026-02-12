@@ -30,7 +30,7 @@ This project represents my journey from static design to dynamic interactivity.
 
 | Before (Classic) | After (Modern Redesign) |
 | :---: | :---: |
-| <img src="./images/old-design.png" width="400" alt="Old Design"> | <img src="./images/new-design.png" width="400" alt="New Design"> |
+| <img src="./images/old-design.webp" width="400" alt="Old Design"> | <img src="./images/new-design.webp" width="400" alt="New Design"> |
 
 ---
 
