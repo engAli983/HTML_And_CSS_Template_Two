@@ -337,7 +337,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .landing {
   min-height: 100vh;
-  background-image: url("../images/landing.jpg");
+  background-image: url("../images/landing.webp");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -491,7 +491,7 @@ header nav .nav-links a:hover::after {
   padding: var(--section-padding) 0;
   height: 600px;
   position: relative;
-  background-image: url("../images/design-features.jpg");
+  background-image: url("../images/design-features.webp");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -733,7 +733,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .stats {
   padding: var(--section-padding) 0;
-  background-image: url("../images/stats.png");
+  background-image: url("../images/stats.webp");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -927,7 +927,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .quote {
   padding: var(--section-padding) 0;
-  background-image: url("../images/quote.png");
+  background-image: url("../images/quote.webp");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1057,7 +1057,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .subscribe {
   padding: var(--section-padding) 0;
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("../images/subscribe.webp");
   background-size: cover;
   position: relative;
   color: var(--white);
@@ -1227,7 +1227,7 @@ header nav .nav-links a:hover::after {
 /* ----------------------------------- */
 .footer {
   padding: 60px 0;
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("../images/subscribe.webp");
   background-size: cover;
   position: relative;
   color: var(--white);
