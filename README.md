@@ -84,3 +84,19 @@ I am constantly working to improve this template. Here is the progress:
 ├── images              # Project Assets & Screenshots
 ├── index.html          # Main Structure
 └── README.md           # Documentation
+```
+---
+
+## 🤝 Acknowledgements
+
+* **Original Layout Inspiration:** [Elzero Web School](https://elzero.org)
+* **Icons:** [Font Awesome](https://fontawesome.com)
+* **Fonts:** [Google Fonts](https://fonts.google.com)
+
+---
+
+### ❤️ Connect
+
+If you like this project, feel free to star the repo ⭐️!
+
+**Ali** - [GitHub Profile](https://github.com/engali983)
